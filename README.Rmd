@@ -1,0 +1,28 @@
+---
+output: github_document
+---
+
+<!-- README.md is generated from README.Rmd. Please edit that file -->
+
+```{r, echo = FALSE}
+knitr::opts_chunk$set(
+  collapse = TRUE,
+  comment = "#>",
+  fig.path = "README-"
+)
+```
+
+# hivcleanr
+
+[![Travis-CI Build Status](https://travis-ci.org/JayAchar/hivcleanr.svg?branch=master)](https://travis-ci.org/JayAchar/hivcleanr)
+
+hivcleanr is a package to clean HIV programmatic data from MSF OCA Excel-based data tools.
+
+## Installation
+
+You can install hivcleanr from github with:
+
+```{r gh-installation, eval = FALSE}
+# install.packages("devtools")
+devtools::install_github("JayAchar/hivcleanr")
+```
