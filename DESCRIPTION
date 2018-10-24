@@ -1,8 +1,8 @@
 Package: hivcleanr
 Type: Package
 Title: HIV data cleaning package
-Date: 2018-10-23
-Version: 0.0.1
+Date: 2018-10-24
+Version: 0.0.2
 Authors@R: person("Jay", "Achar", email = "jay.achar@doctors.org.uk", role = c("aut", "cre"))
 Description: This package is designed to clean imported HIV programmatic data to a stage where it can be analysed. 
 License: GPL-3

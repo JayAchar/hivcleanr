@@ -58,15 +58,21 @@ oca_hiv_cleanr <- function(x) {
                 colnames
             }
 
-    # generate repetitive column names - simple
+# generate repetitive column names - simple
     months <- c(0:5, 8, 10, seq(15, 69, by = 6))
+        
     rep_col_simple <- map(months, rep_colnames_simple) %>%  unlist
+        assert_that(length(rep_col_simple) == 36)
+        assert_that(rep_col_simple[1] == "status_0")
 
-    # generate repititive column names - complex
+# generate repititive column names - complex
     months <- seq(6, 72, by = 6)
-    rep_col_complex <- map(months, rep_colnames_complex) %>% unlist()
 
-    # merge repetitive names and reorder by month
+    rep_col_complex <- map(months, rep_colnames_complex) %>% unlist()
+        assert_that(length(rep_col_complex) == 93)
+        assert_that(rep_col_complex[1] == "date_6")
+    
+# merge repetitive names and reorder by month
     full_names <- c(rep_col_simple, rep_col_complex) %>%
         data.frame(names = .,
                    stringsAsFactors = FALSE) %>%
@@ -75,6 +81,8 @@ oca_hiv_cleanr <- function(x) {
         arrange(.data$month) %>%
         ungroup()
 
+    assert_that(nrow(full_names) == 129)
+    
 
     new_names <- c("id",
                    "recent_fu",
