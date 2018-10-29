@@ -16,7 +16,7 @@ knitr::opts_chunk$set(
 
 [![Travis-CI Build Status](https://travis-ci.org/JayAchar/hivcleanr.svg?branch=master)](https://travis-ci.org/JayAchar/hivcleanr)
 [![AppVeyor build status](https://ci.appveyor.com/api/projects/status/github/JayAchar/hivcleanr?branch=master&svg=true)](https://ci.appveyor.com/project/JayAchar/hivcleanr)
-[![codecov](https://codecov.io/gh/JayAchar/hivcleanr/branch/master/graph/badge.svg)](https://codecov.io/gh/JayAchar/hivcleanr)
+[![Coverage status](https://codecov.io/gh/JayAchar/hivcleanr/branch/master/graph/badge.svg)](https://codecov.io/github/JayAchar/hivcleanr?branch=master)
 [![CRAN_Status_Badge](http://www.r-pkg.org/badges/version/hivcleanr)](https://cran.r-project.org/package=hivcleanr)
 
 
