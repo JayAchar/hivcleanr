@@ -2,5 +2,32 @@ template:
   params:
     bootswatch: cosmo
     ganalytics: UA-128985004-2
-    
-    
+
+navbar:
+  structure:
+    left:
+    - home
+    - intro
+    - reference
+    - articles
+    - tutorials
+    - news
+    right: github
+  components:
+    home:
+      icon: fa-home fa-lg
+      href: index.html
+    reference:
+      text: Reference
+      href: reference/index.html
+    github:
+      icon: fa-github fa-lg
+      href: https://github.com/JayAchar/hivcleanr
+
+reference:
+- title: All functions
+  desc: ~
+  contents:
+  - '`hivcleanr`'
+  - '`oca_hiv_cleanr`'
+
