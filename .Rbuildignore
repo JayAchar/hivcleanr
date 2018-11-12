@@ -1,3 +1,4 @@
+^_pkgdown\.yml$
 ^appveyor\.yml$
 ^.*\.Rproj$
 ^\.Rproj\.user$
@@ -5,3 +6,4 @@
 ^README\.Rmd$
 ^README-.*\.png$
 ^codecov\.yml$
+^docs$
